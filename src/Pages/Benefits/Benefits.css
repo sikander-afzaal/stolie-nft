@@ -1,0 +1,100 @@
+.benefits {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  height: auto;
+  margin-top: 5rem;
+  color: white;
+  width: 90%;
+  gap: 20px;
+}
+.benefits h1 {
+  font-size: 2.5rem;
+}
+.benefits hr {
+  width: 100%;
+  background-color: white;
+}
+.bene-desc {
+  width: 70%;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+.benefits-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+  gap: 2rem;
+  width: 100%;
+}
+.benefit-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin: 2rem 0rem;
+}
+.benefit-row img {
+  max-width: 12%;
+  flex: 0.3 1;
+  object-fit: contain;
+}
+.text-row {
+  flex: 0.7;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+.text-row h2 {
+  font-size: 1.8rem;
+}
+.text-row p {
+  width: 100%;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+@media screen and (max-width: 800px) {
+  .benefit-row img {
+    max-width: 18%;
+  }
+  .bene-desc {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 645px) {
+  .benefit-row {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 2rem 0rem;
+  }
+  .benefit-row img {
+    order: 1 !important;
+    max-width: 22%;
+  }
+  .text-row {
+    order: 2 !important;
+  }
+  .text-row h2 {
+    font-size: 1.3rem;
+  }
+  .text-row p {
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+@media screen and (max-width: 475px) {
+  .benefits h1 {
+    font-size: 2rem;
+  }
+  .benefit-row img {
+    max-width: 43%;
+  }
+}

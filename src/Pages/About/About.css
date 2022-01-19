@@ -1,0 +1,157 @@
+.about,
+.about-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-top: 3rem;
+}
+.about {
+  flex-direction: column;
+  padding-bottom: 4rem;
+}
+.about-left,
+.about-right {
+  flex: 0.5;
+}
+.about-left {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.about-left img {
+  max-width: 95%;
+  object-fit: contain;
+}
+.about-right {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+}
+.about-right h1 {
+  font-size: 2.5rem;
+}
+.about-right p {
+  font-size: 1.15rem;
+  width: 80%;
+  line-height: 1.6;
+}
+.about hr {
+  width: 80%;
+  background-color: white;
+  height: 2px;
+}
+.quote {
+  font-size: 0.9rem !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.copy {
+  font-size: 0.9rem !important;
+}
+.slider-image {
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+.splide__pagination__page {
+  background: #535058 !important;
+  border: 0;
+  border-radius: 5px !important;
+  display: inline-block;
+  height: 3px !important;
+  margin: 5px !important;
+  padding: 0;
+  transition: all 0.2s linear !important;
+  width: 1.5em !important;
+}
+.splide__track {
+  cursor: grab;
+}
+.splide__pagination__page.is-active {
+  opacity: 1 !important;
+  background-color: white !important;
+}
+.splide__pagination {
+  bottom: -2.5rem !important;
+}
+.splide__slide {
+  transform: scale(0.9);
+  transition: all 0.25s ease-in-out;
+}
+.splide__slide.is-active {
+  transform: scale(1);
+}
+.about-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 4rem;
+}
+@media screen and (max-width: 1333px) {
+  .about-left {
+    flex: 0.4;
+  }
+  .about-right {
+    flex: 0.6;
+  }
+  .about-left img {
+    max-width: 100%;
+  }
+  .about-right p {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 1165px) {
+  .about-top {
+    flex-direction: column;
+    padding-inline: 1rem;
+  }
+  .about-left {
+    order: 2;
+    align-self: center;
+    display: grid;
+    place-items: center;
+  }
+  .about-left img {
+    max-width: 80%;
+  }
+}
+@media screen and (max-width: 977px) {
+  .slider-image {
+    border-radius: 10px;
+  }
+  .about-right p {
+    width: 90%;
+  }
+  .about hr {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 639px) {
+  .splide__pagination__page {
+    margin: 0px !important;
+    width: 20px !important;
+  }
+  .splide__pagination {
+    justify-content: space-between !important;
+  }
+  .about-right p {
+    width: 100%;
+    text-align: left;
+  }
+  .about hr {
+    width: 100%;
+  }
+  .quote {
+    text-align: left !important;
+  }
+}

@@ -1,0 +1,92 @@
+.team {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  height: auto;
+  width: 90%;
+  padding-bottom: 2rem;
+  gap: 20px;
+}
+.team h1 {
+  color: white;
+  font-size: 3rem;
+}
+.team p {
+  width: 60%;
+  line-height: 1.5;
+  font-size: 1.2rem;
+  color: white;
+}
+.team a {
+  color: white;
+  font-size: 1.1rem;
+}
+.bottom-team {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 2fr 2fr;
+  gap: 40px;
+}
+.box-team {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  flex-direction: column;
+  cursor: pointer;
+}
+.team-img:hover {
+  box-shadow: 1px 1px 0.5rem 0 #4080bf;
+  -webkit-transform: translate(0px, -0.5em);
+  -ms-transform: translate(0px, -0.5em);
+  transform: translate(0px, -0.5em);
+}
+.bottom-team img {
+  max-width: 100%;
+  object-fit: contain;
+  transition: all 0.45s ease-in-out;
+  border-radius: 10px;
+}
+.box-team h2 {
+  color: white;
+  font-size: 1.8rem;
+}
+.box-team p {
+  color: white;
+  font-size: 1rem;
+}
+.box-team hr {
+  width: 100%;
+  background-color: white;
+}
+.fa-linkedin {
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+@media screen and (max-width: 1153px) {
+  .bottom-team {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 953px) {
+  .team p {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 621px) {
+  .team p {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 462px) {
+  .bottom-team {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr);
+  }
+  .team p {
+    width: 100%;
+  }
+}

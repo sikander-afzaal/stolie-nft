@@ -1,0 +1,121 @@
+.powered {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  min-height: 40vh;
+  width: 80%;
+  border: 2px solid white;
+  background-color: transparent;
+  border-radius: 25px;
+  padding: 2rem 4rem;
+  box-shadow: 1px 1px 10px 0 #5540bf;
+  margin-top: 5rem;
+}
+.powered h1 {
+  color: white;
+  margin-bottom: 3rem;
+  flex: 0.1;
+}
+.powered hr {
+  width: 100%;
+  background-color: white;
+}
+.brand-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  flex: 0.9;
+  gap: 20px;
+  margin-top: 10px;
+}
+.div-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+  width: 100%;
+}
+.brand-small {
+  display: flex;
+  min-width: 18%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.brand-small img {
+  max-width: 100%;
+  object-fit: contain;
+}
+.brand-small img:first-of-type {
+  max-width: 110px;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+  width: 100%;
+}
+.brand-small img:first-of-type:hover {
+  filter: contrast(0.5);
+}
+/* @media screen and (max-width: 2761) {
+  .brand-small img:first-of-type {
+    max-width: 220px;
+  }
+  .brand-small img {
+    width: 7%;
+  }
+}
+@media screen and (max-width: 1800px) {
+  .brand-small img {
+    max-width: 100%;
+    object-fit: contain;
+    width: 8%;
+  }
+  .brand-small img:first-of-type {
+    max-width: 160px;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+    width: 100%;
+  }
+} */
+@media screen and (max-width: 859px) {
+  .brand-div img:last-of-type {
+    display: none;
+  }
+  .brand-small img:first-of-type {
+    max-width: 100px;
+  }
+  .brand-div {
+    gap: 40px;
+  }
+}
+@media screen and (max-width: 487px) {
+  .powered {
+    padding: 2rem 1rem;
+  }
+  .powered h1 {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+  }
+  .brand-div {
+    margin-top: 2rem;
+  }
+  .brand-small {
+    gap: 26px;
+  }
+}
+@media screen and (max-width: 408px) {
+  .powered {
+    padding: 2rem 1rem;
+  }
+  .powered h1 {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+  }
+  .brand-small img:first-of-type {
+    max-width: 100px;
+  }
+}
