@@ -5,6 +5,7 @@ import Powered from "./Pages/Powered/Powered.jsx";
 import About from "./Pages/About/About.jsx";
 import Benefits from "./Pages/Benefits/Benefits.jsx";
 import Team from "./Pages/Team/Team.jsx";
+import Roadmap from "./Pages/Roadmap/Roadmap.jsx";
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Benefits />
       <Team />
+      <Roadmap />
     </div>
   );
 }
