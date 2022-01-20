@@ -6,6 +6,7 @@
   min-height: 100vh;
   height: auto;
   width: 90%;
+  padding: 3rem 0rem;
 }
 .title {
   color: white;
@@ -67,10 +68,11 @@
 }
 .grid-box h3 {
   font-size: 1.3rem;
+  text-decoration: underline;
 }
 @media screen and (max-width: 1250px) {
   .grid-box p {
-    width: 100%;
+    width: 100% !important;
   }
 }
 @media screen and (max-width: 668px) {
