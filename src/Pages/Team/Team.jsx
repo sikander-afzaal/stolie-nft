@@ -1,6 +1,13 @@
 import React from "react";
 import "./Team.css";
 import img1 from "../../Assets/team/team1.jpeg";
+import img2 from "../../Assets/team/team2.jpeg";
+import img3 from "../../Assets/team/team3.jpeg";
+import img4 from "../../Assets/team/team4.jpeg";
+import img5 from "../../Assets/team/team5.jpeg";
+import img6 from "../../Assets/team/team6.jpeg";
+import img7 from "../../Assets/team/team7.jpeg";
+import img8 from "../../Assets/team/team8.jpeg";
 function Team() {
   return (
     <div className="team">
@@ -15,6 +22,7 @@ function Team() {
       </p>
       <a href="#">More about us</a>
       <div className="bottom-team">
+        {/* team member box starts here------------------ */}
         <div className="box-team">
           <img className="team-img" src={img1} alt="" />
           <h2>KOAK</h2>
@@ -22,78 +30,52 @@ function Team() {
           <hr />
           <i className="fab fa-linkedin"></i>
         </div>
+        {/* team member box ends here------------------ */}
+
         <div className="box-team">
-          <img
-            className="team-img"
-            src="https://uploads-ssl.webflow.com/617c01210e8f0f423616fdd8/6189499adb2a35c59044ff97_Mad%20scientist%20(1)-p-500.jpeg"
-            alt=""
-          />
+          <img className="team-img" src={img2} alt="" />
           <h2>EXO</h2>
           <p>THE PILOT </p>
           <hr />
           <i className="fab fa-linkedin"></i>
         </div>
         <div className="box-team">
-          <img
-            className="team-img"
-            src="https://uploads-ssl.webflow.com/617c01210e8f0f423616fdd8/61961ce0c996db7f6ba3966b_NFT-Disco%20(1)-p-500.jpeg"
-            alt=""
-          />
+          <img className="team-img" src={img3} alt="" />
           <h2>STIZZ</h2>
           <p>THE SPECIALIST </p>
           <hr />
           <i className="fab fa-linkedin"></i>
         </div>
         <div className="box-team">
-          <img
-            className="team-img"
-            src="https://uploads-ssl.webflow.com/617c01210e8f0f423616fdd8/61961cf20e3f874ba9d1bf7d_NFT-samurai%20(1)-p-500.jpeg"
-            alt=""
-          />
+          <img className="team-img" src={img4} alt="" />
           <h2>DBO</h2>
           <p>THE ENFORCER</p>
           <hr />
           <i className="fab fa-linkedin"></i>
         </div>
         <div className="box-team">
-          <img
-            className="team-img"
-            src="https://uploads-ssl.webflow.com/617c01210e8f0f423616fdd8/6189498b41493f5b92df67bc_Casino%20Man%20(2)-p-500.jpeg"
-            alt=""
-          />
+          <img className="team-img" src={img5} alt="" />
           <h2>Tas Nikolo</h2>
           <p>Product Owner</p>
           <hr />
           <i className="fab fa-linkedin"></i>
         </div>
         <div className="box-team">
-          <img
-            className="team-img"
-            src="https://uploads-ssl.webflow.com/617c01210e8f0f423616fdd8/618949709ba498bec88b3804_cowboy-p-500.jpeg"
-            alt=""
-          />
+          <img className="team-img" src={img6} alt="" />
           <h2>Tas Nikolo</h2>
           <p>Product Owner</p>
           <hr />
           <i className="fab fa-linkedin"></i>
         </div>
         <div className="box-team">
-          <img
-            className="team-img"
-            src="https://uploads-ssl.webflow.com/617c01210e8f0f423616fdd8/6189960d7999e3ca5c063d38_All%20or%20Nothing%20(1)-p-500.jpeg"
-            alt=""
-          />
+          <img className="team-img" src={img7} alt="" />
           <h2>Tas Nikolo</h2>
           <p>Product Owner</p>
           <hr />
           <i className="fab fa-linkedin"></i>
         </div>
         <div className="box-team">
-          <img
-            className="team-img"
-            src="https://uploads-ssl.webflow.com/617c01210e8f0f423616fdd8/61961d056ce6375de539e957_Grafitty%20Writer%20(1)-p-500.jpeg"
-            alt=""
-          />
+          <img className="team-img" src={img8} alt="" />
           <h2>Tas Nikolo</h2>
           <p>Product Owner</p>
           <hr />

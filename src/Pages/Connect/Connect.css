@@ -23,6 +23,7 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.5);
   flex-direction: column;
 }
 .longer {
@@ -67,7 +68,7 @@
 .connect-bottom {
   width: 100%;
   background: linear-gradient(
-    180deg,
+    360deg,
     rgba(16, 6, 41, 1) 39%,
     rgba(93, 161, 198, 1) 100%
   );
@@ -75,8 +76,6 @@
   display: grid;
   place-items: center;
   border-radius: 25px;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
 }
 .wallet {
   background-color: #01ffff;

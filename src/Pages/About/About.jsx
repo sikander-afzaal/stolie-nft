@@ -6,7 +6,7 @@ import quote from "../../Assets/quote.svg";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
 //slider images
-import slider1 from "../../Assets/slider/slider-img1.jpeg";
+import slider1 from "../../Assets/slider/robo3.jpeg";
 function About() {
   return (
     <div className="about">

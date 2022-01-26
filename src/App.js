@@ -7,6 +7,7 @@ import Benefits from "./Pages/Benefits/Benefits.jsx";
 import Team from "./Pages/Team/Team.jsx";
 import Roadmap from "./Pages/Roadmap/Roadmap.jsx";
 import Connect from "./Pages/Connect/Connect.jsx";
+import MetaBox from "./Pages/MetaBox/MetaBox.jsx";
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
       <Roadmap />
       <Team />
       <Connect />
+      <MetaBox />
     </div>
   );
 }

@@ -12,6 +12,7 @@ function Hero() {
           Become a digital landlord in a $6,000,000 existing Real Estate
           investment portfolio.
         </p>
+        {/* social buttons ---------------------- */}
         <div className="btn-div-hero">
           <button className="hero-btn twitter">
             <i className="fab fa-twitter header-social"></i>
@@ -26,6 +27,7 @@ function Hero() {
             Telegram
           </button>
         </div>
+        {/* social buttons ---------------------- */}
       </div>
       <div className="hero-right">
         <img src={robo} alt="" />

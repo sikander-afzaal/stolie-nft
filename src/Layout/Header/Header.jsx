@@ -2,7 +2,9 @@ import React, { useState, useEffect } from "react";
 import "./Header.css";
 import logo from "../../Assets/logo.png";
 function Header() {
+  // to open navbar in mobile view
   const [open, setOpen] = useState(false);
+  // to show the black background when we scroll
   const [show, setShow] = useState(false);
   // scroll to add background color ------------------------
   useEffect(() => {
@@ -17,6 +19,7 @@ function Header() {
       window.removeEventListener("scroll");
     };
   }, []);
+  // scroll to add background color ------------------------
   return (
     <div className={`header ${open ? "open" : ""} ${show && "black"}`}>
       <div className="header-left">
