@@ -6,6 +6,7 @@ import About from "./Pages/About/About.jsx";
 import Benefits from "./Pages/Benefits/Benefits.jsx";
 import Team from "./Pages/Team/Team.jsx";
 import Roadmap from "./Pages/Roadmap/Roadmap.jsx";
+import Connect from "./Pages/Connect/Connect.jsx";
 function App() {
   return (
     <div className="App">
@@ -14,8 +15,9 @@ function App() {
       <Powered />
       <About />
       <Benefits />
-      <Team />
       <Roadmap />
+      <Team />
+      <Connect />
     </div>
   );
 }

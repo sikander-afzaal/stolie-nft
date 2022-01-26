@@ -1,0 +1,89 @@
+.connect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  height: auto;
+}
+.connect-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex: 0.1;
+}
+.connect-box {
+  flex: 0.2;
+  border-radius: 25px;
+  background-color: #100629;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+}
+.longer {
+  flex: 0.4;
+  background: linear-gradient(
+    180deg,
+    rgba(16, 6, 41, 1) 39%,
+    rgba(93, 161, 198, 1) 100%
+  );
+}
+.longer-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.claim {
+  font-size: 1.4rem;
+  color: white;
+  width: 30%;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 0.5rem 0rem;
+  background-image: linear-gradient(to top, #ff9543, #ffaa47);
+  margin-left: 40px;
+}
+.connect-box p:first-of-type {
+  color: white;
+  font-size: 2.5rem;
+}
+.connect-box p:last-of-type {
+  color: #7e93d6;
+  font-size: 1rem;
+}
+.logo-connect {
+  max-width: 7%;
+  object-fit: contain;
+}
+.longer-top p {
+  font-size: 2.5rem !important;
+}
+.connect-bottom {
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(16, 6, 41, 1) 39%,
+    rgba(93, 161, 198, 1) 100%
+  );
+  flex: 0.9;
+  display: grid;
+  place-items: center;
+  border-radius: 25px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.wallet {
+  background-color: #01ffff;
+  color: #2c86b5;
+  font-size: 1.4rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 0.5rem 0rem;
+  padding: 13px 25px;
+}

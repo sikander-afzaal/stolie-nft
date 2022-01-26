@@ -15,26 +15,30 @@ function About() {
           <img src={robo2} alt="" />
         </div>
         <div className="about-right">
-          <h1>What are MetaHomies?</h1>
+          <h1>COLLECT, TRADE, AND STAKE YOUR METAHOMIES TO EARN</h1>
           <p>
-            MetaHomies is your ticket into a one of a kind real world/ next gen
-            utility NFT stored on the Ethereum blockchain. With only 3,333 VIP
-            members ever to be minted, MetaHomies grants holders access to a
-            whole new world of utility. By owning just one MetaHomie NFT you
-            will simultaneously reap the benefits of owning Real and Digital
-            Estate, collecting passive rewards on a daily basis while you
-            explore the ever expanding metaverse.
+            There are 3333 NFT's in the MetaHomie collection. Each MetaHomie is
+            provably rare and 100% unique.
           </p>
           <p>
-            MetaHomies is a collection of NFTs stored as an ERC-721 token on the
-            Ethereum blockchain. Each MetaHomie is provably rare, some more rare
-            than others however no two are the same.
+            Becoming an MetaHomies holder will give you access to claim DAILY
+            PASSIVE REWARDS and become a digital landlord in an existing Real
+            Estate portfolio. As well as future access to roam the ever
+            expanding Metaverse.
           </p>
           <p>
-            They are non-fungible, as these tokens are not interchangeable with
-            one another.
+            Passive Rewards revolve around THE “D.R.I.P.” (Decentralized Real
+            Estate Investment Portfolio) This is a portfolio of all Real Estate
+            owned and managed by MetaHomies LLC and its partners. This consists
+            of over $6.1 million dollars in total assets pre-mint! Which
+            generate a residual income from rental profits.
           </p>
-          <p>‍Each MetaHomie is 100% unique</p>
+          <p>
+            Holders will be rewarded in $DRIPCOIN, the internal community token
+            for MetaHomies NFT. DRIPCOIN can be claimed daily and even exchanged
+            for ETH. However the community token will prove to be much more
+            valuable within the MetaHomie Universe.
+          </p>
           <hr />
           <p className="quote">
             <span style={{ marginRight: "10px" }}>

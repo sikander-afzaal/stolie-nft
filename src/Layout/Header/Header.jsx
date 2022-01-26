@@ -47,8 +47,8 @@ function Header() {
             FAQ
           </a>
         </nav>
-        <button className="btn-header whitepaper">Whitepaper</button>
-        <button className="btn-header mint-tick">Mint your Ticket</button>
+        <button className="btn-header whitepaper">MINT</button>
+        <button className="btn-header mint-tick">STAKE TO EARN</button>
         <div className="social-header">
           <i className="fab fa-discord header-social"></i>
           <i className="fab fa-twitter header-social"></i>

@@ -7,10 +7,10 @@ function Hero() {
     <div className="hero">
       <img src={ship} className="ship" alt="" />
       <div className="hero-left">
-        <h1>MetaHomies NFT Launch! </h1>
+        <h1>Welcome To MetaHomies NFT</h1>
         <p>
-          A 5 YR $6MM+ Existing Real Estate Investment Portfolios' Immersion
-          into the METAVERSE | $100MM Track Record
+          Become a digital landlord in a $6,000,000 existing Real Estate
+          investment portfolio.
         </p>
         <div className="btn-div-hero">
           <button className="hero-btn twitter">
