@@ -3,10 +3,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 86vh;
   height: auto;
   width: 90%;
-  margin-top: 10rem;
+  margin-top: auto;
 }
 .connect-top {
   display: flex;
@@ -19,7 +19,7 @@
   flex: 0.2;
   border-radius: 25px;
   background-color: rgba(126, 147, 214, 0.9);
-  height: 300px;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,7 +57,8 @@
 }
 .connect-box p:last-of-type {
   color: white;
-  font-size: 1rem;
+  margin-top: 10px;
+  font-size: 1.1rem;
 }
 .logo-connect {
   max-width: 7%;
@@ -95,7 +96,8 @@
   }
   .connect-box p:last-of-type {
     color: white;
-    font-size: 0.8rem;
+    font-size: 1.1rem;
+    text-align: center;
   }
   .longer-top p {
     font-size: 2rem !important;
@@ -117,6 +119,9 @@
   }
 }
 @media screen and (max-width: 900px) {
+  .connect {
+    margin-top: 10rem;
+  }
   .connect-top {
     flex-direction: column;
     width: 100%;

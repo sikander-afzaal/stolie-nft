@@ -37,7 +37,7 @@ function Header() {
           <a
             onClick={() => {
               setOpen(false);
-              document.querySelector("body").classList.toggle("overflow");
+              document.querySelector("body").classList.remove("overflow");
             }}
             href="/#hero"
             className="nav-links"
@@ -47,7 +47,7 @@ function Header() {
           <a
             onClick={() => {
               setOpen(false);
-              document.querySelector("body").classList.toggle("overflow");
+              document.querySelector("body").classList.remove("overflow");
             }}
             href="/#bene"
             className="nav-links"
@@ -57,7 +57,7 @@ function Header() {
           <a
             onClick={() => {
               setOpen(false);
-              document.querySelector("body").classList.toggle("overflow");
+              document.querySelector("body").classList.remove("overflow");
             }}
             href="/#roadmap"
             className="nav-links"
@@ -67,7 +67,7 @@ function Header() {
           <a
             onClick={() => {
               setOpen(false);
-              document.querySelector("body").classList.toggle("overflow");
+              document.querySelector("body").classList.remove("overflow");
             }}
             href="/"
             className="nav-links"
@@ -77,7 +77,7 @@ function Header() {
           <a
             onClick={() => {
               setOpen(false);
-              document.querySelector("body").classList.toggle("overflow");
+              document.querySelector("body").classList.remove("overflow");
             }}
             href="/"
             className="nav-links"
@@ -87,7 +87,7 @@ function Header() {
           <a
             onClick={() => {
               setOpen(false);
-              document.querySelector("body").classList.toggle("overflow");
+              document.querySelector("body").classList.remove("overflow");
             }}
             href="/#team"
             className="nav-links"
@@ -97,7 +97,7 @@ function Header() {
           <a
             onClick={() => {
               setOpen(false);
-              document.querySelector("body").classList.toggle("overflow");
+              document.querySelector("body").classList.remove("overflow");
             }}
             href="/"
             className="nav-links"
@@ -108,7 +108,7 @@ function Header() {
         <Link
           onClick={() => {
             setOpen(false);
-            document.querySelector("body").classList.toggle("overflow");
+            document.querySelector("body").classList.remove("overflow");
           }}
           to="/mint-page"
         >
@@ -117,7 +117,7 @@ function Header() {
         <Link
           onClick={() => {
             setOpen(false);
-            document.querySelector("body").classList.toggle("overflow");
+            document.querySelector("body").classList.remove("overflow");
           }}
           to="/stacking"
         >
