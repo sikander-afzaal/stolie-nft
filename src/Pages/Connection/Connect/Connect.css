@@ -6,6 +6,7 @@
   min-height: 100vh;
   height: auto;
   width: 90%;
+  margin-top: 10rem;
 }
 .connect-top {
   display: flex;
@@ -17,7 +18,7 @@
 .connect-box {
   flex: 0.2;
   border-radius: 25px;
-  background-color: #100629;
+  background-color: rgba(126, 147, 214, 0.9);
   height: 300px;
   display: flex;
   justify-content: center;
@@ -55,7 +56,7 @@
   font-size: 2.5rem;
 }
 .connect-box p:last-of-type {
-  color: #7e93d6;
+  color: white;
   font-size: 1rem;
 }
 .logo-connect {
@@ -93,7 +94,7 @@
     font-size: 2rem;
   }
   .connect-box p:last-of-type {
-    color: #7e93d6;
+    color: white;
     font-size: 0.8rem;
   }
   .longer-top p {

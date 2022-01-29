@@ -34,33 +34,96 @@ function Header() {
 
       <div className={`header-right ${open ? "open" : ""}`}>
         <nav>
-          <a href="#hero" className="nav-links">
+          <a
+            onClick={() => {
+              setOpen(false);
+              document.querySelector("body").classList.toggle("overflow");
+            }}
+            href="/#hero"
+            className="nav-links"
+          >
             What are MetaHomies?
           </a>
-          <a href="#bene" className="nav-links">
+          <a
+            onClick={() => {
+              setOpen(false);
+              document.querySelector("body").classList.toggle("overflow");
+            }}
+            href="/#bene"
+            className="nav-links"
+          >
             Benefits
           </a>
-          <a href="#roadmap" className="nav-links">
+          <a
+            onClick={() => {
+              setOpen(false);
+              document.querySelector("body").classList.toggle("overflow");
+            }}
+            href="/#roadmap"
+            className="nav-links"
+          >
             Roadmap
           </a>
-          <a href="#" className="nav-links">
+          <a
+            onClick={() => {
+              setOpen(false);
+              document.querySelector("body").classList.toggle("overflow");
+            }}
+            href="/"
+            className="nav-links"
+          >
             Rarity
           </a>
-          <a href="#" className="nav-links">
+          <a
+            onClick={() => {
+              setOpen(false);
+              document.querySelector("body").classList.toggle("overflow");
+            }}
+            href="/"
+            className="nav-links"
+          >
             Partners
           </a>
-          <a href="#team" className="nav-links">
+          <a
+            onClick={() => {
+              setOpen(false);
+              document.querySelector("body").classList.toggle("overflow");
+            }}
+            href="/#team"
+            className="nav-links"
+          >
             Team
           </a>
-          <a href="#" className="nav-links">
+          <a
+            onClick={() => {
+              setOpen(false);
+              document.querySelector("body").classList.toggle("overflow");
+            }}
+            href="/"
+            className="nav-links"
+          >
             FAQ
           </a>
         </nav>
-        <Link to="/mint-page">
+        <Link
+          onClick={() => {
+            setOpen(false);
+            document.querySelector("body").classList.toggle("overflow");
+          }}
+          to="/mint-page"
+        >
           <button className="btn-header whitepaper">MINT</button>
         </Link>
+        <Link
+          onClick={() => {
+            setOpen(false);
+            document.querySelector("body").classList.toggle("overflow");
+          }}
+          to="/stacking"
+        >
+          <button className="btn-header mint-tick">STAKE TO EARN</button>
+        </Link>
 
-        <button className="btn-header mint-tick">STAKE TO EARN</button>
         <div className="social-header">
           <i className="fab fa-discord header-social"></i>
           <i className="fab fa-twitter header-social"></i>

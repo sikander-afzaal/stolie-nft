@@ -1,5 +1,4 @@
-.home,
-.connection {
+.home {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -7,7 +6,4 @@
   min-height: 100vh;
   height: auto;
   width: 100%;
-}
-.connection {
-  margin-top: 10rem;
 }

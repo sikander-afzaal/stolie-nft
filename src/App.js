@@ -1,7 +1,8 @@
 import "./App.css";
 import Header from "./Layout/Header/Header.jsx";
-import Connection from "./Pages/Connection/Connection.jsx";
 import Home from "./Pages/Home/Home.jsx";
+import Connect from "./Pages/Connection/Connect/Connect.jsx";
+import MetaBox from "./Pages/Connection/MetaBox/MetaBox.jsx";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
         <Header />
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
-          <Route path="/mint-page" element={<Connection />}></Route>
+          <Route path="/mint-page" element={<Connect />}></Route>
+          <Route path="/stacking" element={<MetaBox />}></Route>
         </Routes>
       </Router>
     </div>
