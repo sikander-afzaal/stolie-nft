@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Header.css";
 import logo from "../../Assets/logo.png";
+import { Link } from "react-router-dom";
 function Header() {
   // to open navbar in mobile view
   const [open, setOpen] = useState(false);
@@ -22,35 +23,43 @@ function Header() {
   // scroll to add background color ------------------------
   return (
     <div className={`header ${open ? "open" : ""} ${show && "black"}`}>
-      <div className="header-left">
+      <Link
+        style={{ textDecoration: "none", color: "white" }}
+        className="header-left"
+        to="/"
+      >
         <img src={logo} alt="..." />
         <p>MetaHomies</p>
-      </div>
+      </Link>
+
       <div className={`header-right ${open ? "open" : ""}`}>
         <nav>
-          <a href="..." className="nav-links">
+          <a href="#hero" className="nav-links">
             What are MetaHomies?
           </a>
-          <a href="..." className="nav-links">
+          <a href="#bene" className="nav-links">
             Benefits
           </a>
-          <a href="..." className="nav-links">
+          <a href="#roadmap" className="nav-links">
             Roadmap
           </a>
-          <a href="..." className="nav-links">
+          <a href="#" className="nav-links">
             Rarity
           </a>
-          <a href="..." className="nav-links">
+          <a href="#" className="nav-links">
             Partners
           </a>
-          <a href="..." className="nav-links">
+          <a href="#team" className="nav-links">
             Team
           </a>
-          <a href="..." className="nav-links">
+          <a href="#" className="nav-links">
             FAQ
           </a>
         </nav>
-        <button className="btn-header whitepaper">MINT</button>
+        <Link to="/mint-page">
+          <button className="btn-header whitepaper">MINT</button>
+        </Link>
+
         <button className="btn-header mint-tick">STAKE TO EARN</button>
         <div className="social-header">
           <i className="fab fa-discord header-social"></i>

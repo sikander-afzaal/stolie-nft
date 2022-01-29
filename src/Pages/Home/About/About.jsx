@@ -1,12 +1,12 @@
 import React from "react";
 import "./About.css";
-import robo2 from "../../Assets/robo2.png";
-import quote from "../../Assets/quote.svg";
+import robo2 from "../../../Assets/robo2.png";
+import quote from "../../../Assets/quote.svg";
 //slider library
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/splide/dist/css/splide.min.css";
 //slider images
-import slider1 from "../../Assets/slider/robo3.jpeg";
+import slider1 from "../../../Assets/slider/robo3.jpeg";
 function About() {
   return (
     <div className="about">

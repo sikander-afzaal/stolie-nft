@@ -1,16 +1,16 @@
 import React from "react";
 import "./Team.css";
-import img1 from "../../Assets/team/team1.jpeg";
-import img2 from "../../Assets/team/team2.jpeg";
-import img3 from "../../Assets/team/team3.jpeg";
-import img4 from "../../Assets/team/team4.jpeg";
-import img5 from "../../Assets/team/team5.jpeg";
-import img6 from "../../Assets/team/team6.jpeg";
-import img7 from "../../Assets/team/team7.jpeg";
-import img8 from "../../Assets/team/team8.jpeg";
+import img1 from "../../../Assets/team/team1.jpeg";
+import img2 from "../../../Assets/team/team2.jpeg";
+import img3 from "../../../Assets/team/team3.jpeg";
+import img4 from "../../../Assets/team/team4.jpeg";
+import img5 from "../../../Assets/team/team5.jpeg";
+import img6 from "../../../Assets/team/team6.jpeg";
+import img7 from "../../../Assets/team/team7.jpeg";
+import img8 from "../../../Assets/team/team8.jpeg";
 function Team() {
   return (
-    <div className="team">
+    <div id="team" className="team">
       <h1>Team</h1>
       <p>
         MetaHomies Was created by Exodus Mining LLC, an exclusive and

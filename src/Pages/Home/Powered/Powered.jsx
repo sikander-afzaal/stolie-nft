@@ -1,8 +1,8 @@
 import React from "react";
 import "./Powered.css";
-import img1 from "../../Assets/powered/brand1.svg";
-import img2 from "../../Assets/powered/brand2.svg";
-import star from "../../Assets/powered/star.svg";
+import img1 from "../../../Assets/powered/brand1.svg";
+import img2 from "../../../Assets/powered/brand2.svg";
+import star from "../../../Assets/powered/star.svg";
 function Powered() {
   return (
     <div className="powered">

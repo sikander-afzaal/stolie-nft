@@ -1,9 +1,9 @@
 import React from "react";
 import "./Benefits.css";
-import img1 from "../../Assets/Benefits/bene-1.png";
+import img1 from "../../../Assets/Benefits/bene-1.png";
 function Benefits() {
   return (
-    <div className="benefits">
+    <div id="bene" className="benefits">
       <h1>MetaHomies Rewards and Utility</h1>
       <p className="bene-desc">
         When you buy a MetaHomie, you’re not only holding a provably one of one

@@ -1,10 +1,10 @@
 import React from "react";
 import "./Hero.css";
-import ship from "../../Assets/ship.png";
-import robo from "../../Assets/robo1.png";
+import ship from "../../../Assets/ship.png";
+import robo from "../../../Assets/robo1.png";
 function Hero() {
   return (
-    <div className="hero">
+    <div id="hero" className="hero">
       <img src={ship} className="ship" alt="" />
       <div className="hero-left">
         <h1>Welcome To MetaHomies NFT</h1>

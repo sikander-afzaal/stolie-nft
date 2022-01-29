@@ -10,3 +10,6 @@ body {
 .overflow {
   overflow-y: hidden;
 }
+html {
+  scroll-behavior: smooth;
+}

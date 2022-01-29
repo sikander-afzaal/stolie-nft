@@ -1,6 +1,6 @@
 import React from "react";
 import "./Connect.css";
-import logo from "../../Assets/logo.png";
+import logo from "../../../Assets/logo.png";
 function Connect() {
   return (
     <div className="connect">
