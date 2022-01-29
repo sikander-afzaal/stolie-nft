@@ -75,8 +75,9 @@
     rgba(93, 161, 198, 1) 100%
   );
   flex: 0.9;
-  display: grid;
-  place-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 25px;
 }
 .wallet {

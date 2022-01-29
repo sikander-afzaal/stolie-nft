@@ -11,8 +11,8 @@ function App() {
         <Header />
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
-          <Route path="/mint-page" element={<Connect />}></Route>
-          <Route path="/stacking" element={<MetaBox />}></Route>
+          <Route path="/stacking" element={<Connect />}></Route>
+          <Route path="/mint-page" element={<MetaBox />}></Route>
         </Routes>
       </Router>
     </div>
